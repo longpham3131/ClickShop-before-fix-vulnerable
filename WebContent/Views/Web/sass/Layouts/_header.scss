@@ -1,0 +1,45 @@
+/* HEADER  */
+.header__logo {
+    text-align: left;
+}
+.header__icons {
+    flex-grow: 1;
+    text-align: right;
+}
+.header__icons a {
+    color: black;
+}
+.header__icons i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dropdown__image img {
+    width: 100%;
+    padding: 25px;
+}
+header .nav-item .nav-link {
+    padding: 0 5px;
+    color: white;
+    transition: all, 0.5s;
+}
+.header__nav .navbar-nav li:hover .nav-link, .header__nav .navbar-nav .nav-item:active .nav-link{
+    color: black;
+    transform: scale(1.1);
+}
+.dropdown__content .dropdown-item {
+    margin-bottom: 25px;
+}
+.dropdown__image span a {
+    padding: 25px;
+}
+.no__relative {
+    position: unset;
+}
+header {
+    // position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    background: #9F9F9F
+}

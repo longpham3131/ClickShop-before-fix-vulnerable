@@ -1,0 +1,52 @@
+/* CONTACT  */
+
+.contact{
+    background-color: #f3f3f3;
+    padding: 15px 0;
+}
+.contact__letter{
+    padding: 0 20px;
+    justify-content: space-around;
+}
+.contact__letter h4 i{
+    margin-right: 5px;
+    font-size: 25px;
+    
+}
+.contact__letter h4{
+    font-size: 14px;
+    padding: 0 20px;
+}
+.contact__letter input{
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    height: 45px;
+    font-weight: 500;
+    padding: 0 20px;
+    background: #fbfbfb;
+    color: #252a2b;
+    width: 50%;
+}
+.contact__hotline i{
+    font-size: 25px;
+}
+.contact__hotline p {
+    padding-left: 10px;
+    font-size: 16px;
+}
+.contact__hotline p span{
+    color: red;
+}
+
+/* FOOTER  */
+
+.contact__linked p, .contact__location{
+    padding-bottom: 15px;
+}
+.contact__location p{
+    padding-left: 10px;
+}
+.contact__social i{
+    font-size: 30px;
+    padding-right: 15px;
+}

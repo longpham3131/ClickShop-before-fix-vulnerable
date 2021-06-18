@@ -1,0 +1,24 @@
+/* BASIC COLLECTION  */
+.basicCollection .swiper-slide img {
+    width: 80%;
+    padding-bottom: 20px;
+}
+.swiper-slide h4 {
+    font-size: 15px;
+}
+.basicCollection .swiper-slide .img__hover{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 80%;
+    transition: all,0.5s;
+
+}
+.basicCollection .swiper-slide:hover .img__hover{
+    visibility: visible ;
+    opacity: 1;
+}

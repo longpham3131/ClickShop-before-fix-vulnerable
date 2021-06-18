@@ -1,0 +1,26 @@
+/* GLOBAL  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    line-height: 1.4;
+    font-size: 14px;
+    color: #252a2b;
+    overflow-x: hidden;
+    background: #fff;
+    position: initial !important;
+}
+section {
+    margin-top: 40px;
+}

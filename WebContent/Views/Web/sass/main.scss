@@ -1,0 +1,36 @@
+// chỉ chứa các đường dấn đến các files con
+//Helper
+
+
+
+// Vendor (chỉ import file scss của thư viện)
+
+//Base
+@import'./Base/reset';
+//Components
+@import'./Components/button';
+
+//Layouts
+@import'./Layouts/header';
+@import'./Layouts/contact';
+@import'./Layouts/scrollToTop';
+@import'./Layouts/footer';
+//Pages
+
+//Pages --> HomePage
+@import'./Pages/HomePage/basicCollection';
+@import'./Pages/HomePage/banner';
+
+//Pages --> ProductPage
+@import'./Pages/ProductsPage/products';
+
+//Pages --> ProductDetail
+@import'./Pages/ProductDetailPage/productDetail';
+
+//Pages --> CheckOut
+@import'./Pages/CheckOutPage/checkOut';
+
+//Pages --> Login
+@import'./Pages/LoginPage/login';
+
+//Theme

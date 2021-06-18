@@ -1,0 +1,19 @@
+/* SCROLL TO TOP  */
+.backToTop{
+    background-image: url(../img/arrowup.png) ;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+
+    /* Ẩn khi trượt lên  */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,21 @@
+.loginTW{
+  background-image: linear-gradient(to right, rgba(134, 42, 42, 0), #d3d3d3);
+  height: 100%;
+  .nav-pills{
+    .nav-item{
+      width: 50%;
+      .nav-link.active{
+        background-color: transparent;
+        color: black;
+        border-bottom: 4px solid black  ;
+        // border-right: 4px solid black ;
+        font-weight: 600;
+        font-size: 16px;
+      }
+      .link__login{
+        border-right: 4px solid black ;
+      }
+     
+    }
+  }
+}

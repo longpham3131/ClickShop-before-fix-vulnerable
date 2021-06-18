@@ -1,0 +1,119 @@
+/* PRODUCT  */
+.product li input {
+    display: none;
+}
+.product li label {
+    border: 1px solid #eaeaea;
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+    position: relative;
+    background-size: contain;
+}
+.filter__color li {
+    display: inline;
+    margin: 0 10px 10px 0;
+    line-height: normal;
+    width: 20%;
+    float: left;
+}
+.filter__color li input[type="checkbox"]:checked + label:before {
+    position: absolute;
+    transform: rotate(-45deg);
+    content: "";
+    border-width: 0 0 2px 2px !important;
+    height: 5px;
+    width: 9px;
+    z-index: 99;
+    border: solid #fff;
+    margin: 7px 0 0 7px;
+}
+.product__type .product__item img {
+    width: 80%;
+}
+.product__type .product__item .img__hover {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 70%;
+    transition: all, 0.5s;
+}
+.product__type .product__item:hover .img__hover {
+    visibility: visible;
+    opacity: 1;
+}
+.product__type h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+.product__main nav li a.product__catagory {
+    color: #252a2b;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    /*  */
+}
+.product__main nav li ul.collapse li {
+    padding-left: 20px;
+}
+.product__main nav li {
+    padding-top: 10px;
+}
+.product__item h4 {
+    font-size: 14px;
+}
+
+.product__catagories, .product__colors {
+    .title-bl {
+        background-color: #f5f5f5;
+        color: black;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        h2 {
+            font-size: 18px;
+            padding: 5px;
+        }
+       
+    }
+    .main_details{
+        text-align: left;
+        padding: 20px 15px;
+        li{
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .product__catagory{
+            font-weight: 500;
+           
+        }
+        
+    }
+   
+}
+.product__colors{
+   
+    ul li input[type="checkbox"]:checked + label:before {
+        position: absolute;
+        transform: rotate(-45deg);
+        content: "";
+        border-width: 0 0 2px 2px !important;
+        height: 5px;
+        width: 9px;
+        z-index: 99;
+        border: solid #fff;
+        margin: 7px 0 0 7px;
+        left: 0;
+    }
+   
+}

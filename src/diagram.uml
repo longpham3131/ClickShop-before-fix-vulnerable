@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.model.Voucher</node>
+    <node x="0.0" y="374.0">com.controller.admin.cancelOrder</node>
+    <node x="244.0" y="0.0">com.controller.admin.ActionVoucher</node>
+    <node x="0.0" y="279.0">com.controller.admin.insertProduct</node>
+    <node x="180.0" y="184.0">com.controller.admin.insertAccount</node>
+    <node x="167.0" y="374.0">com.controller.admin.fillByMail</node>
+    <node x="180.0" y="279.0">com.controller.admin.fillAllOrder</node>
+    <node x="0.0" y="184.0">com.controller.admin.chooseAccount</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.5" y="164.5" />
+  <SelectedNodes>
+    <node>com.model.Voucher</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
